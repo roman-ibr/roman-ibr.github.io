@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -16,6 +16,11 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I am a Ph.D. student in the Department of Computer and Information Technology (with a dual-degree in the School of Aeronautics and Astronautics) at [Purdue University](https://www.purdue.edu/){:target="\_blank"}. I am working with Prof. Byung-Cheol Min in SMART Lab. 
+
+Before I joined Purdue University, in 2020, I received my M.S. degree in Space and Engineering Systems at Skoltech and I was supervised by Prof. Dzmitry Tsetserukou in the Intelligent Space Robotics Lab. I obtained my B.S. in Systems Engineering from ADA University in 2018. I was a visiting student in the Department of Electrical and Electronics Engineering at METU in 2016 and in the Department of Control Systems and Robotics at ITMO University in 2017. 
+
+My research interests include **distributed and collaborative multi-agent systems, networked systems, robot design, and planning & control**. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
