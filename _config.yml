@@ -95,16 +95,16 @@ disqus_shortname: al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: false
-    permalink: /news/:path/
-  projects:
-    output: false 
-    permalink: /projects/:path/
+#   news:
+#     defaults:
+#       layout: post
+#     output: false
+#     permalink: /news/:path/
+#   projects:
+#     output: false 
+#     permalink: /projects/:path/
 
-news_limit: 0
+# news_limit: 0
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
