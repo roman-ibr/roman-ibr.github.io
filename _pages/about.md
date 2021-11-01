@@ -1,5 +1,5 @@
 ---
-layout: bout
+layout: about
 title: About me
 permalink: /
 description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
