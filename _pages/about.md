@@ -13,7 +13,7 @@ profile:
     <p>West Lafayette, IN 47907</p>
 
 news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I am a Ph.D. student in the Department of Computer and Information Technology (with a dual-degree in the School of Aeronautics and Astronautics) at [Purdue University](https://www.purdue.edu/){:target="\_blank"}. I am working with Prof. Byung-Cheol Min in [SMART Lab](http://www.smart-laboratory.org/){:target="\_blank"} . 
