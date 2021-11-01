@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: Home
 title: Home
 permalink: /
 description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
