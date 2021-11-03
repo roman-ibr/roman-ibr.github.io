@@ -52,9 +52,11 @@
           </li> -->
           {% endif %}
           <!-- Other pages /title-->
-          {% assign sorted_pages = site.pages | sort: "title" %} 
+          {% assign sorted_pages = site.pages | sort: "order" %} 
           {% for p in sorted_pages %}
-          {% if p.nav and p.autogen == nil %}
+            <li><a href="{{p.url}}">{{p.title}}</a></li>
+
+  <!--         {% if p.nav and p.autogen == nil %}
           {% if p.dropdown %}
           <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -83,7 +85,7 @@
               </a>
           </li>
           {% endif %}
-          {% endif %}
+          {% endif %} -->
           {% endfor %}
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
