@@ -31,6 +31,18 @@
               {% endif %}
             </a>
           </li>
+
+
+
+            <!-- About -->
+          <li class="nav-item {% if page.title == 'ServicesServicesServices' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/' | relative_url }}">
+              ServicesServices
+              {% if page.title == "Services" %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
           <!-- CV/Resume -->
           <li class="nav-item {% if page.title == 'CV/Resume' %}active{% endif %}">
             <a class="nav-link" href= "{{ site.cv_pdf_name | prepend: '/assets/pdf/' }}">
