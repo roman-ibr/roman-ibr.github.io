@@ -3,12 +3,9 @@ layout: default
 permalink: /services/
 published: true
 title: Services
-description: To be updated soon.
+description: 
 nav: true
 ---
 
-
-
-fnfnfnfnfr fnftrfrfrf
-
+To be updated soon. 
 

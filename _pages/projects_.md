@@ -2,12 +2,10 @@
 layout: page
 permalink: /projects/
 title: Projects
-description: To be updated soon.
+description: 
 nav: true
 ---
 
-
-
-fnfnfnfnfr fn
+To be updated soon. 
 
 
