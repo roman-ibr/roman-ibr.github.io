@@ -216,6 +216,16 @@ enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
+
+
+header_pages:
+ - 01_about.md
+ - 02_publications.md
+ - 03_services.md
+ - 04_projects.md
+
+
+
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
