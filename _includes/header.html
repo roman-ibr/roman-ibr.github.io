@@ -51,8 +51,8 @@
             </a>
           </li> -->
           {% endif %}
-          <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
+          <!-- Other pages /title-->
+          {% assign sorted_pages = site.pages | sort: "order" %} 
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           {% if p.dropdown %}
