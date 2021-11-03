@@ -2,12 +2,12 @@
 layout: page
 permalink: /contact/
 title: Contact
-description: Contact
+description: 
 nav: true
 ---
 
+To be updated soon. 
 
 
-fnfnfnfnfr fn
 
 
