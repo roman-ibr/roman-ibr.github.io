@@ -35,6 +35,15 @@
           </li>
 
 
+
+          <!-- CV/Resume -->
+          <li class="nav-item {% if page.title == 'CV/Resume' %}active{% endif %}">
+            <a class="nav-link" href= "{{ site.cv_pdf_name | prepend: '/assets/pdf/' }}">
+              CV   
+            </a>
+          </li>
+
+
                   <!-- Services -->
           <li class="nav-item {% if page.title == 'Services' %}active{% endif %}">
             <a class="nav-link" href="{{ '/services/' | relative_url }}">
@@ -45,12 +54,18 @@
             </a>
           </li>
 
-          <!-- CV/Resume -->
-          <li class="nav-item {% if page.title == 'CV/Resume' %}active{% endif %}">
-            <a class="nav-link" href= "{{ site.cv_pdf_name | prepend: '/assets/pdf/' }}">
-              CV   
+
+                          <!-- Publications -->
+          <li class="nav-item {% if page.title == 'Publications' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/publications/' | relative_url }}">
+              Publications
+              {% if page.title == "Publications" %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
             </a>
           </li>
+
+
 
 
 
