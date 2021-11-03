@@ -52,9 +52,8 @@
           </li> -->
           {% endif %}
           <!-- Other pages /title-->
-          {% assign sorted_pages = site.pages | sort: "order" %} 
+          {% assign sorted_pages = site.pages | sort: "title" %} 
           {% for p in sorted_pages %}
-          <li><a href="{{p.url}}">{{p.title}}</a></li>
           {% if p.nav and p.autogen == nil %}
           {% if p.dropdown %}
           <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
