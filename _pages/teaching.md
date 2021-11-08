@@ -6,9 +6,17 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: false
 ---
 
-<h4> <b> Fall 2021 </b> </h4>
+<h4> <b> Spring - Fall 2021 </b> </h4>
 <div id='container'>
     <ul>
-        <li>Teaching Assistant,<a href="https://polytechnic.purdue.edu/courses/course?courseid=138594" target="_blank">CNIT 15501: Introduction To Software Development Concepts</a></li>
+        <li>Teaching Assistant, <a href="https://polytechnic.purdue.edu/courses/course?courseid=138594" target="_blank">CNIT 15501: Introduction To Software Development Concepts</a></li>
+        <li>Course Instructor: <a href="https://polytechnic.purdue.edu/profile/tsalem" target="_blank">Tawfiq Salem</a></li>
+    </ul>
+</div>
+
+<h4> <b> Spring 2021 </b> </h4>
+<div id='container'>
+    <ul>
+        <li>Course Instructor, <a href="https://www.ada.edu.az/en/schools/site">ENCE 4833 Introduction to Robotics </a></li>
     </ul>
 </div>
