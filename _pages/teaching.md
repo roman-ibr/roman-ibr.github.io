@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching Experience
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: false
 ---
 
@@ -24,6 +24,6 @@ nav: false
 <h4> <b> Spring 2021 </b> </h4>
 <div id='container'>
     <ul>
-        <li>Course Instructor, <a href="https://www.ada.edu.az/en/schools/site">ENCE 4833 Introduction to Robotics </a></li>
+        <li>Bachelor Thesis Supervisor, <i>Haptic Wearable Controlled Mobile Robot</i> </li>
     </ul>
 </div>
