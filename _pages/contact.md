@@ -7,19 +7,31 @@ nav: true
 ---
 
 <p style="width: 38%; float: left;">
-	Address: 
+	<b>Address:</b>
+	<br>
+	<br>
 	<br>
 	<b>Roman Ibrahimov</b>
 	<br>
+	<br>
+	<br>
 	A.A. Potter Engineering Center, Room 141
+	<br>
+	<br>
 	<br>
 	500 Central Dr.
 	<br>
+	<br>
+	<br>
 	West Lafayette, IN 47907
 	<br>
-	<i style="font-size:24px" class="fa">&#xf0e0;</i><b>Email:</b> ibrahir{at}purdue{dot}edu
 	<br>
-	<i style="font-size:24px" class="fa">&#xf095;</i><b>Phone:</b> +1-574-581-0957
+	<br>
+	<br>
+	<i style="font-size:24px" class="fa">&#xf0e0;</i><b>  Email:</b> ibrahir{at}purdue{dot}edu
+	<br>
+	<br>
+	<i style="font-size:24px" class="fa">&#xf095;</i><b>  Phone:</b> +1-574-581-0957
 
 <p style="width: 38%; float: right;">
 	<iframe
