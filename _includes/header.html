@@ -27,7 +27,7 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              About
+              Home
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -68,6 +68,22 @@
               {% endif %}
             </a>
           </li>
+
+                          <!-- Teaching -->
+          <li class="nav-item {% if page.title == 'Teaching' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/teaching/' | relative_url }}">
+              Teaching
+              {% if page.title == "Teaching" %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+
+
+
+
+
+
 
 
 

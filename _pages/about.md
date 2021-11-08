@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 I am a Ph.D. student in the Department of Computer and Information Technology (with a dual-degree in the School of Aeronautics and Astronautics) at [Purdue University](https://www.purdue.edu/){:target="\_blank"}. I am working with Prof. Byung-Cheol Min in [SMART Lab](http://www.smart-laboratory.org/){:target="\_blank"} . 
 
-During summer 2021, I was a research assistant in NASA [RETH Institute](https://www.purdue.edu/rethi/){:target="\_blank"} and I am closely collaborating with the Awareness team for the Resilient Extraterrestrial Habitats. 
+I am a research assistant in NASA [RETH Institute](https://www.purdue.edu/rethi/){:target="\_blank"} and I am closely collaborating with the Awareness team for the Resilient Extraterrestrial Habitats. 
 
 Before I joined Purdue University, in 2020, I received my M.S. degree in Space and Engineering Systems at [Skoltech](https://www.skoltech.ru/en/){:target="\_blank"} and I was supervised by Prof. Dzmitry Tsetserukou in the Intelligent Space Robotics Lab. I obtained my B.S. in Systems Engineering from [ADA University](https://www.ada.edu.az/){:target="\_blank"} in 2018. I was a visiting student in the Department of Electrical and Electronics Engineering at [METU](https://www.metu.edu.tr/){:target="\_blank"}  in 2016 and in the Department of Control Systems and Robotics at [ITMO University](https://en.itmo.ru/){:target="\_blank"}  in 2017. 
 
