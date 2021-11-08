@@ -27,3 +27,10 @@ nav: false
         <li>Bachelor Thesis Supervisor, <i>Haptic Wearable Controlled Mobile Robot</i> </li>
     </ul>
 </div>
+
+<h4> <b> Fall 2020 </b> </h4>
+<div id='container'>
+    <ul>
+        <li>Course Instructor, <a href="https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-computer-science-0478/">Cambridge IGCSE Computer Science </a></li>
+    </ul>
+</div>
