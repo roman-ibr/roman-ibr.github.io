@@ -21,8 +21,9 @@ nav: false
 <div id='container'>
     <ul>
         <li>Course Instructor, <a href="https://www.ada.edu.az/en/schools/site">ENCE 4833 Introduction to Robotics </a></li>
-        <br
     </ul>
+    <br>
+    <br>
 </div>
 
 
@@ -31,6 +32,8 @@ nav: false
     <ul>
         <li>Bachelor Thesis Supervisor, <i>Haptic Wearable Controlled Mobile Robot</i> </li>
     </ul>
+    <br>
+    <br>
 </div>
 
 
