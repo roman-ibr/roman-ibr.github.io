@@ -1,9 +1,10 @@
 ---
 layout: page
-permalink: /projects/
 title: Projects
-description: 
+permalink: /projects/
+description: #A growing collection of your cool projects.
 nav: true
+display_categories: [Government-funded Research, University-funded Research, Individual Researchs]
 horizontal: false
 ---
 
