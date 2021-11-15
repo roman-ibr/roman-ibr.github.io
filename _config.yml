@@ -218,11 +218,11 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 
 
 
-header_pages:
- - 01_about.md
- - 02_publications.md
- - 03_services.md
- - 04_projects.md
+# header_pages:
+#  - 01_about.md
+#  - 02_publications.md
+#  - 03_services.md
+#  - 04_projects.md
 
 
 
