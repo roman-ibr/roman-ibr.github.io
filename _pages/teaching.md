@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching Experience
 description: 
-nav: false
+nav: true
 ---
 
 <h4> <b> Spring & Fall 2021 </b> </h4>
