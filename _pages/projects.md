@@ -8,7 +8,7 @@ nav: true
 
 <h4> <b> 1. ROS-based Multi-robot Testbed </b> </h4>
 <div id='container'>
-    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/platforms/mrs_testbed.jpg' | relative_url }}" alt="" title="Multi-robot Testbed"  class="center" style='float: none;height: 100%; width: 100%; object-fit: contain'/>
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/platforms/mrs_testbed.jpg' | relative_url }}" alt="" title="Multi-robot Testbed"  class="right" style='float: none;height: 100%; width: 100%; object-fit: contain'/>
     <figcaption class="figure-caption text-center"> [ROS-based Mobile Testbed for Multi-robot System.]</figcaption>
     <br>
     <p>We develop SMARTmBot, an open-source, low-cost mobile robot platform that can facilitate the research and education involving multi-robot systems. SMARTmBot runs on Robot Operating System (ROS) 2, using Raspberry Pi 4 as the mainboard computer. The hardware is composed of 3 layers of PCB, including various input and output devices. SMARTmBots as a swarm can form different types of formations, change their light either individually or as a whole, and measure the distance of nearby obstacles. In the future, we will utilize this platform to investigate the effects of a swarm/multi-robot on human perception and cognition. In addition, we will enable K-12 teachers and students to access this robot platform to promote their education and interests in STEM.​</p>
