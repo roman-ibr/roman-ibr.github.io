@@ -141,16 +141,26 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll/scholar
-  - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-feed
   - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-target-blank
+  - jekyll/scholar
   - jekyll-twitter-plugin
+  - jekyll-sitemap
   - jemoji
+
+
+  # - jekyll/scholar
+  # - jekyll-diagrams
+  # - jekyll-email-protect
+  # - jekyll-feed
+  # - jekyll-github-metadata
+  # - jekyll-paginate-v2
+  # - jekyll-sitemap
+  # - jekyll-target-blank
+  # - jekyll-twitter-plugin
+  # - jemoji
 
 # Extras
 github: [metadata]
