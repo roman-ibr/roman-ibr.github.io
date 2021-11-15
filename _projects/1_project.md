@@ -1,80 +1,25 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: PRF Fellowship
+description: It is to develop algae removal Unmanned Surface Vessle.
+img: /assets/img/projects/icon_prf_aglae_usv.jpg
+# redirect: https://unsplash.com
 importance: 1
-category: work
+category: University-funded Research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<h4> <b> Algae Removal Unmannded Surfce Vessles (USV) </b> </h4>
+<h5> <b> SMARTmBOAT-05 </b> </h5>
+<div id='container'>
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/platforms/smartmboat-05.jpg' | relative_url }}" alt="" title="Multi-robot Testbed"  class="center" style='float: none;height: 100%; width: 100%; object-fit: contain'/>
+    <p>We introduce a small and low-cost unmanned surface vehicle (USV), the SMARTBoat 5, capable of removing harmful algal blooms (HABs), which are a rising environmental issue worldwide. The developed USV is a hovercraft type, operated by two propellers with duct fans; it is able to freely move even in shallow water and to approach shorelines. For eco-friendly, immediate, and safe control of algae, the USV is equipped with a novel water suction mechanism that enables it to actively collect algae without physical contact. In addition, it is equipped with a mesh net-based algae filter system that is easily disassembled and replaced. The USV system is supported by the Robot Operating System (ROS) for expandability and use in diverse applications. The performance of the proposed water suction mechanism and USV platform overall are validated through computational fluid simulation (CFD) and experiments in both lab and real environments.​​</p>
+    <ul>
+        <li> Repository: <a href="https://github.com/SMARTlab-Purdue/Harmful-Algae-Removal-USV​​​​" target="_blank"> https://github.com/SMARTlab-Purdue/Harmful-Algae-Removal-USV​​​​​​​​​</a>​</li>
+        <li> Video: <a href="https://youtu.be/8BPvFbJgXho​" target="_blank">https://youtu.be/8BPvFbJgXho​</a>​</li>
+        <li> Paper: <b>Wonse Jo</b>, J. Park, Y. Hoashi and B. Min, "Development of an Unmanned Surface Vehicle for Harmful Algae Removal," OCEANS 2019 MTS/IEEE SEATTLE, 2019, pp. 1-7, doi: 10.23919/OCEANS40490.2019.8962677; <a href="https://ieeexplore.ieee.org/document/8962677" target="_blank">Link​​</a></li>
+    </ul>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+    *This work was supported in part by the Purdue Research Foundation (PRF) Graduate Fellowship and by the Arequipa Nexus Institute.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/1.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/3.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/5.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/5.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/6.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/11.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/6.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/11.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
