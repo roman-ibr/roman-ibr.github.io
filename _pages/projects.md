@@ -13,6 +13,6 @@ nav: true
     <br>
     <p>We develop SMARTmBot, an open-source, low-cost mobile robot platform that can facilitate the research and education involving multi-robot systems. SMARTmBot runs on Robot Operating System (ROS) 2, using Raspberry Pi 4 as the mainboard computer. The hardware is composed of 3 layers of PCB, including various input and output devices. SMARTmBots as a swarm can form different types of formations, change their light either individually or as a whole, and measure the distance of nearby obstacles. In the future, we will utilize this platform to investigate the effects of a swarm/multi-robot on human perception and cognition. In addition, we will enable K-12 teachers and students to access this robot platform to promote their education and interests in STEM.​</p>
     <ul>
-        <li>Course Instructor, <a href="https://www.ada.edu.az/en/schools/site">ENCE 4833 Introduction to Robotics </a></li>
+      Course Instructor, <a href="https://www.ada.edu.az/en/schools/site">ENCE 4833 Introduction to Robotics </a>
     </ul>
 </div>
