@@ -22,7 +22,7 @@ I am a research assistant in NASA [RETH Institute](https://www.purdue.edu/rethi/
 
 Before I joined Purdue University, in 2020, I received my M.S. degree in Space and Engineering Systems at [Skoltech](https://www.skoltech.ru/en/){:target="\_blank"} and I was supervised by Prof. Dzmitry Tsetserukou in the Intelligent Space Robotics Lab. I obtained my B.S. in Systems Engineering from [ADA University](https://www.ada.edu.az/){:target="\_blank"} in 2018. I was a visiting student in the Department of Electrical and Electronics Engineering at [METU](https://www.metu.edu.tr/){:target="\_blank"}  in 2016 and in the Department of Control Systems and Robotics at [ITMO University](https://en.itmo.ru/){:target="\_blank"}  in 2017. 
 
-My research interests include **distributed and collaborative multi-agent systems, networked systems, robot design, and planning & control**. 
+My research interests include **distributed and collaborative multi-agent systems, networked systems, robot design, and planning & control with learning**. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
