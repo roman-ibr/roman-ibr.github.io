@@ -6,7 +6,7 @@ description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: roman_pic.jpg
+  image: roman_pic.JPG
   address: >
     <p>1115 Etcheverry Hall</p>
     <p>2521 Hearst Ave</p>
