@@ -2,7 +2,7 @@ ruby '3.1.2'
 source 'https://rubygems.org'
 
 # 💡 Pin to safe version
-gem 'sass-embedded', '= 1.63.6'
+gem 'sass-embedded', '= 1.63.6', platforms: [:ruby]
 gem 'uri', '< 1.0.3'
 
 group :jekyll_plugins do
