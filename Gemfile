@@ -14,3 +14,4 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+gem 'uri', '1.0.3'
