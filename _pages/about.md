@@ -16,7 +16,9 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a graduate studentt working with Prof. [Mark Mueller](https://me.berkeley.edu/people/mark-w-mueller/){:target="\_blank"} at [HiPeRLab](https://hiperlab.berkeley.edu/){:target="\_blank"} at [UC Berkeley](https://www.berkeley.edu/){:target="\_blank"}. I received my M.S. in Aeronautics and Astronautics at [Purdue University](https://www.purdue.edu/){:target="\_blank"}, West Lafayette. 
+
+I am a graduate student working with Prof. [Mark Mueller](https://me.berkeley.edu/people/mark-w-mueller/){:target="\_blank"} at [HiPeRLab](https://hiperlab.berkeley.edu/){:target="\_blank"} at [UC Berkeley](https://www.berkeley.edu/){:target="\_blank"}. I received my M.S. in Aeronautics and Astronautics at [Purdue University](https://www.purdue.edu/){:target="\_blank"}, West Lafayette. 
+
 
 During my time at Purdue, I was fortunate enough to work with Prof. [Shirley Dyke](https://engineering.purdue.edu/ME/People/ptProfile?resource_id=57291){:target="\_blank"} and Prof. [David Cappelleri](https://engineering.purdue.edu/ME/People/ptProfile?resource_id=92669){:target="\_blank"} at NASA [RETH Institute](https://www.purdue.edu/rethi/){:target="\_blank"}. 
 
