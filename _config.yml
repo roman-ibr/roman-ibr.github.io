@@ -6,7 +6,7 @@ title: Roman Ibrahimov # the website title (if blank, full name will be used ins
 first_name: Roman
 middle_name: 
 last_name: Ibrahimov
-email: ibrahir@purdue.edu
+email: roman.ibrahimov@berkeley.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
