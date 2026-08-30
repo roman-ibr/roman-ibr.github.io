@@ -15,6 +15,10 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href="css/narrow_main.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+  <script>
+    MathJax = { tex: { inlineMath: [['$', '$']] } };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
@@ -43,19 +47,21 @@
     </td>
     <td width="68%" valign="middle" align="justify">
     <p>
-      I am a visiting Robotics scholar at  <a href="https://www.princeton.edu/" target="_blank">Princeton</a>'s 
+      I am a Robotics scholar at  <a href="https://www.princeton.edu/" target="_blank">Princeton</a>'s 
       <a href="https://archfab.princeton.edu/" target="_blank">Embodied Computation Lab</a> and <a href="https://www.adelresearchgroup.org/about" target="_blank">ARG</a>. 
     </p> 
     <p>   
-      I received my M.S. in Mechanical Engineering at <a href="https://me.berkeley.edu/" target="_blank">UC Berkeley</a>, working with <a href="https://me.berkeley.edu/people/mark-w-mueller/" target="_blank">Prof. Mark Mueller</a>  
-      at <a href="https://hiperlab.berkeley.edu/" target="_blank">the High Performance Robotics Lab (HiPeRLab)</a>. 
-
+      I received my M.S. in Mechanical Engineering at <a href="https://me.berkeley.edu/" target="_blank">UC Berkeley</a>.
+      
       Previously, I studied Aeronautics and Astronautics at <a href="https://engineering.purdue.edu/AAE" target="_blank">Purdue University</a>, where I had the 
-      privilege of working with <a href="https://engineering.purdue.edu/ME/People/ptProfile?id=57291" target="_blank">Prof. Shirley Dyke </a>and <a href="https://engineering.purdue.edu/ME/People/ptProfile?resource_id=92669" target="_blank">Prof. David Cappelleri</a> at the NASA-funded <a href="https://www.purdue.edu/rethi/" target="_blank">RETH Institute</a>.
+      privilege of working at the NASA-funded <a href="https://www.purdue.edu/rethi/" target="_blank">RETH Institute</a>.
     </p> 
-
-      My research interests include robotics and control, with applications in hardware design, distributed 
-      and collaborative multi-agent systems, human-robot interaction, and contact-rich manipulation with learning-based approaches. 
+      My research focuses on robot learning for contact-rich manipulation, with an emphasis on reducing reliance on 
+      costly real-world interaction data. I am interested in leveraging synthetic demonstrations for scalable policy 
+      learning while addressing the sim-to-real gap through model-based and adaptive control techniques. My goal is to 
+      combine the generalization capabilities of learning with controllers that explicitly account for physical 
+      interaction, uncertainty, and system dynamics. When existing robotic platforms are insufficient for a task, 
+      I also design and build custom hardware to support the required sensing, actuation, and physical interaction.
     <p> 
 
       <!-- <a href="link" target="_blank">name</a> -->
@@ -98,6 +104,41 @@
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
+
+<!-- ===+++++++++++++++++++++=== AutoCon ============================== -->
+  <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
+    <td width="33%" valign="center" align="center">
+    <img src="images/papers/gable_final_9x_5x.gif" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+    </td>
+    <td width="67%" valign="top">
+      <p>
+      <heading id="CDC23_COILS">Contact-Rich Robotic Manipulation in Construction via Zero-Shot Learning: A Diffusion Policy-Guided Adaptive Control</heading><br>
+      <b>Roman Ibrahimov</b>, Salma Mozaffari, Arash Adel<br>
+      <em>Automation in Construction (submitted)</em>, 2026
+      </p>
+
+      <div class="paper" id="cdc23_coils">
+      <a href="https://arxiv.org/pdf/2608.22100" target="_blank">arXiv</a> |
+      <a href="javascript:toggleblock('autocon_2026')">Abstract</a><!--
+      <a shape="rect" href="javascript:togglebib('cdc23_coils')" class="togglebib">bibtex</a>-->
+
+      <p align="justify"> <i id="autocon_2026">
+      Construction robotics and automation offer promising means of improving productivity, alleviating workforce shortages, and reducing workers' exposure 
+      to physically demanding tasks. However, reliable contact-rich robotic assembly remains challenging under tight tolerances, fabrication inaccuracies, 
+      and uncertain contact dynamics. To address this challenge, we present a framework coupling diffusion policies trained on simulation-generated pose and 
+      force/torque data with an $\mathcal{L}_1$-inspired adaptive controller that corrects policy-predicted actions online to compensate for unmodeled contact
+      dynamics. We benchmark the framework against baselines in timber joinery, pipe fitting, and sequential full-scale truss assembly. It achieves 100% success
+       on single-task assemblies and 90&ndash;100% success across sequential truss assembly subtasks, with lower, more stable contact forces than the baselines. By
+       enabling zero-shot sim-to-real transfer for force-aware contact-rich assembly, the framework reduces costly, labor-intensive real-world data collection for 
+       policy training and advances scalable, robust automation of multistage assembly, motivating extension to broader contact-rich manipulation tasks in construction.
+
+
+      </i></p>
+
+
+
+
+<!-- ===+++++++++++++++++++++=== ACC ============================== -->
   <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
     <td width="33%" valign="center" align="center">
     <div class ="one">
@@ -110,7 +151,7 @@
     </td>
     <td width="67%" valign="top">
       <p>
-      <heading id="CDC23_COILS"><a href="https://ieeexplore.ieee.org/abstract/document/11107817" class="_blank">Kalman Filter-Based Drift Detection and Mitigation of Visual-Inertial Odometry in UAVs</a></heading><br>
+      <heading id="CDC23_COILS">Kalman Filter-Based Drift Detection and Mitigation of Visual-Inertial Odometry in UAVs</heading><br>
       <b>Roman Ibrahimov</b>, Teaya Yang, Mark Mueller<br>
       <em>American Control Conference (ACC)</em>, 2025
       </p>
@@ -769,7 +810,7 @@ can considerably improve the quality of aerial manipulations.
             <div style="margin-bottom:24px;">
             <h3>Academic Service</h3>
             <ul style="list-style-position: inside; padding-left: 20px; margin-top: 8px;">
-              <li> <strong>Reviewer for Journal and Conferences: </strong>IEEE Robotics and Automation Letters (RA-L) 2024, RA-L 2023, RA-L 2022, IEEE International Conference on Robotics and Automation (ICRA) 2024, ICRA 2023, ICRA 2021, ICRA 2020; ACM Conference on Human Factors in Computing Systems (CHI) 2020; Virtual Reality & Intelligent Hardware Journal 2020;
+              <li> <strong>Reviewer for Journal and Conferences: </strong>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026, IEEE Robotics and Automation Letters (RA-L) 2024, RA-L 2023, RA-L 2022, IEEE International Conference on Robotics and Automation (ICRA) 2024, ICRA 2023, ICRA 2021, ICRA 2020; ACM Conference on Human Factors in Computing Systems (CHI) 2020; Virtual Reality & Intelligent Hardware Journal 2020;
               </li>
               
             </ul>
@@ -805,6 +846,9 @@ can considerably improve the quality of aerial manipulations.
 
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('autocon_2026');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('acc_2025');
